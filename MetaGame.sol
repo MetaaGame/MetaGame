@@ -6,13 +6,13 @@ contract Token {
     // Initialize addresses mapping
     mapping(address => uint) public balances;
     // Total supply (in this case 1000 tokens)
-    uint public totalSupply = 1000 * 10 ** 18;
+    uint public totalSupply = 1000 * 10 ** 9;
     // Tokens Name
-    string public name = "My Token";
+    string public name = "MetaGame";
     // Tokens Symbol
-    string public symbol = "MTK";
-    // Total Decimals (max 18)
-    uint public decimals = 18;
+    string public symbol = "MTG";
+    // Total Decimals (max 9)
+    uint public decimals = 9;
     
     // Transfers
     event Transfer(address indexed from, address indexed to, uint value);
